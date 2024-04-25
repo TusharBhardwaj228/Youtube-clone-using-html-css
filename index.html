@@ -19,23 +19,32 @@
            
             <button class="search-button">
                 <img class="search-img" src="icons/search.svg" alt="search-img">
+                <p class="tooltip">Search</p>
             </button>
             <button class="voice-search">
                 <img class="voice-search-img" src="icons/voice-search-icon.svg" alt="voice-search">
+                <p class="tooltip">Search with your voice</p>
             </button>
         </div>
         <div class="right">
-            <img class="upload-icon" src="icons/upload.svg" alt="upload">
-            <img class="youtube-app-icon" src="icons/youtube-apps.svg" alt="apps">
+            <div class="upload">
+                <img class="upload-icon" src="icons/upload.svg" alt="upload">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-app">
+                <img class="youtube-app-icon" src="icons/youtube-apps.svg" alt="apps">
+                <div class="tooltip">Youtube Apps</div>
+            </div>                      
             <div class="nf">
                 <img class="notification-icon" src="icons/notifications.svg" alt="notifications">
                 <p>3</p>
+                <div class="tooltip">Notifications</div>
             </div>
             <img class="current-channel-picture" src="channel-pictures/Tushar-pic.jpg" alt="channel-pictures">
         </div>       
     </header>
 
-    <div class="body-part">
+    <section class="body-part">
         <!--Side Menu-->
         <div class="side-menu">
             <div class="side-menu-details">
@@ -62,8 +71,9 @@
                 <img class="side-images" src="icons/library.svg" alt="library">
                 <p>Library</p>
             </div>
-        </div>
+        </section>
         <!-- Main Body -->
+        <main>
         <div class="main-body">
             <div class="thumbnail">
                 <a href="https://www.youtube.com/"><img class="thumbnail-pic" src="thumbnails/thumbnail-1.webp" alt="th1"></a>
@@ -211,5 +221,6 @@
             </div>
         </div>
     </div>
+</main>
 </body>
 </html>
