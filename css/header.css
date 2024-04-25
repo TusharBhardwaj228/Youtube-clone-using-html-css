@@ -12,6 +12,7 @@ header {
     left: 0;
     right: 0;
     top: 0;
+    z-index: 1;
     background-color: #fff;
 }
 .left{
@@ -83,6 +84,7 @@ header {
 .voice-search-img{
     height: 24px;
     margin-top: 4px;
+    cursor: pointer;
 }
 
 .right{
@@ -96,15 +98,35 @@ header {
 
 .upload-icon{
     height: 24px;
+    cursor: pointer;
 }
 .youtube-app-icon{
     height: 24px;
+    cursor: pointer;
 }
 .notification-icon{
     height: 24px;
+    cursor: pointer;
+    position: relative;
 }
 .current-channel-picture{
     height: 32px;
     border-radius: 16px;
+    cursor: pointer;
+}
+.nf{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.right p{
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: red;
+    padding: 0 7px;
+    border-radius: 100px;
+    cursor: pointer;
+
 }
 
